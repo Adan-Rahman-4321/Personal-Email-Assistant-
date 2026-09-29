@@ -1,0 +1,57 @@
+## Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio & VS Code files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ide/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Dependency directories
+packages/
+*.nuget.props
+*.nuget.targets
+
+## ASP.NET temporary files
+*.publishsettings
+appsettings.json
+appsettings.Production.json
+appsettings.local.json
+secrets.json
+*.env
+!.env.example
+
+## Local OAuth and token files
+*token*.json
+*credentials*.json
+
+## OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Logs
+*.log

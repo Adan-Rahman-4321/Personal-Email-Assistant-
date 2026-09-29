@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailAssistant", "EmailAssistant\EmailAssistant.csproj", "{DFBF56D3-51E9-4D77-BE21-496C77E05320}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussiness Logic Layer", "Bussiness Logic Layer", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{DF18AAA1-E8A7-434D-AD3F-510D4AF48C95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{3835B964-3581-4876-9147-C94D845C6EC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python Classifier", "Python Classifier", "{74E880C3-3569-4912-AACE-16E2EA576AF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E32ED4C7-270D-4F99-BE24-B2C656EA054D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{29E78559-BE9B-4401-8B2D-5EE0E05399C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{00ECECAA-13EF-4E4A-B0EC-247E19A94E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{3DB2339B-DAFA-405D-9059-9A04EB9AFD18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFBF56D3-51E9-4D77-BE21-496C77E05320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBF56D3-51E9-4D77-BE21-496C77E05320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBF56D3-51E9-4D77-BE21-496C77E05320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBF56D3-51E9-4D77-BE21-496C77E05320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E78559-BE9B-4401-8B2D-5EE0E05399C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E78559-BE9B-4401-8B2D-5EE0E05399C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E78559-BE9B-4401-8B2D-5EE0E05399C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E78559-BE9B-4401-8B2D-5EE0E05399C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00ECECAA-13EF-4E4A-B0EC-247E19A94E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ECECAA-13EF-4E4A-B0EC-247E19A94E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ECECAA-13EF-4E4A-B0EC-247E19A94E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ECECAA-13EF-4E4A-B0EC-247E19A94E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB2339B-DAFA-405D-9059-9A04EB9AFD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB2339B-DAFA-405D-9059-9A04EB9AFD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB2339B-DAFA-405D-9059-9A04EB9AFD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB2339B-DAFA-405D-9059-9A04EB9AFD18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFBF56D3-51E9-4D77-BE21-496C77E05320} = {3835B964-3581-4876-9147-C94D845C6EC4}
+		{29E78559-BE9B-4401-8B2D-5EE0E05399C5} = {E32ED4C7-270D-4F99-BE24-B2C656EA054D}
+		{00ECECAA-13EF-4E4A-B0EC-247E19A94E59} = {DF18AAA1-E8A7-434D-AD3F-510D4AF48C95}
+		{3DB2339B-DAFA-405D-9059-9A04EB9AFD18} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DBAFF72-A5A3-4E38-B768-6E82E0BD6FC0}
+	EndGlobalSection
+EndGlobal

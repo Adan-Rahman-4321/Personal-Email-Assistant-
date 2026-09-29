@@ -1,0 +1,143 @@
+:root {
+  /* Dark Theme Palette - Premium & Modern */
+  --bg-primary: #0f172a;       /* Deep Blue/Black */
+  --bg-secondary: #1e293b;     /* Lighter Blue/Black */
+  --bg-tertiary: #334155;      /* Slate */
+  
+  --text-primary: #f8fafc;     /* Almost White */
+  --text-secondary: #cbd5e1;   /* Light Gray */
+  --text-muted: #94a3b8;       /* Slate Gray */
+  
+  --accent-primary: #3b82f6;   /* Bright Blue */
+  --accent-secondary: #8b5cf6; /* Violet */
+  --accent-success: #10b981;   /* Emerald */
+  --accent-warning: #f59e0b;   /* Amber */
+  --accent-danger: #ef4444;    /* Red */
+  --accent-info: #06b6d4;      /* Cyan */
+
+  --border-color: #334155;
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --header-height: 70px;
+}
+
+html, body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  height: 100%;
+}
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary); 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
+
+/* Layout Utilities */
+.btn-primary {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--bg-tertiary);
+  border-color: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+  background-color: #475569;
+  border-color: #475569;
+  color: white;
+}
+
+.card {
+     background-color: var(--bg-secondary);
+     border: 1px solid var(--border-color);
+     color: var(--text-primary);
+}
+
+.form-control {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.form-control:focus {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.25);
+}
+
+.modal-content {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.modal-header, .modal-footer {
+    border-color: var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+}
+
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--bg-secondary) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--text-primary) !important;
+}
+
+.nav-link:hover {
+    color: var(--accent-primary) !important;
+}
+
+.footer {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted);
+}
